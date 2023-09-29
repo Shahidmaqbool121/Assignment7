@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 26%;
+            /* background-color: yellow;
+            color: black; */
+        }
+
+        .top-left {
+            position: absolute;
+            margin: auto;
+            text-align: left;
+            right: 60%;
+            top: 10%;
+            font-family: Arial, sans-serif;
+            color: black;
+            background-color: rgb(221, 181, 108);
+            width: 10%;
+            border-radius: 20%;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .top-bottom {
+            position: absolute;
+            margin: auto;
+            text-align: left;
+            right: 57%;
+            top: 15%;
+            font-family: Arial, sans-serif;
+            color: white;
+
+        }
+
+        img {
+            height: 400px;
+            width: 400px;
+            object-fit: fill;
+            border-radius: 10%;
+            filter: grayscale(80%);
+            border: 10px solid rgb(236, 161, 20);
+            opacity: 0.5;
+        }
+
+        img:hover {
+            opacity: 1.0;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>Q7:-Create a simple webpage with a card similar to question number 2. The card must be semi-transparent as
+        default and on hovering the card must be displayed clearly. Use CSS opacity to achieve this output?</h4>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1495344517868-8ebaf0a2044a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+            alt="" class="center">
+        <div class="top-bottom">
+            <p>
+            <h3>Full Stack <br>
+                Web Development</h3>
+            </p>
+        </div>
+        <div class="top-left">
+            <p>
+                Job Assurance Program
+            </p>
+        </div>
+        <div class="bottom-left">
+            <p>
+                Your email shahidmaqbool617@gmail.com has not been confirmed <br>
+                The numbers in the table specify the first browser version that fully supports the property.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
